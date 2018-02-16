@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package maquinacafe;
+package com.principal;
+
+import java.util.Scanner;
 
 /**
  *
@@ -18,6 +20,7 @@ public class MaquinaCafe
     public static void main(String[] args)
     {
         // TODO code application logic here
+        
     }
     
 }
