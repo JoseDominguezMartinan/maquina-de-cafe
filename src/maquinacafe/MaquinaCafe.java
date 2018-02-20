@@ -5,8 +5,6 @@
  */
 package maquinacafe;
 
-import java.util.Scanner;
-
 /**
  * metodo aplicacion para chamar ao boton que presionamos 
  * @author jdominguezmartinan
