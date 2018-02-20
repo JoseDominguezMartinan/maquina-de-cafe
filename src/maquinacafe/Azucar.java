@@ -6,38 +6,17 @@
 package maquinacafe;
 
 /**
+ * clase azucar
  *
  * @author jdominguezmartinan
+ * @version 1.0
  */
-public class Azucar
-{
-    public int cantidad=3;
+public class Azucar {
 
-    public Azucar()
-    {
-    }
+    /**
+     * cantidade de azucar que ten que ter o producto, por defecto vai a ter a
+     * cantidade tres
+     */
+    public static int cantidad = 3;
 
-    public int getCantidad()
-    {
-        return cantidad;
-    }
-
-    public void setCantidad(int cantidad)
-    {
-        this.cantidad = cantidad;
-    }
-
-    @Override
-    public String toString()
-    {
-        return "Azucar{"+"cantidad="+cantidad+'}';
-    }
-    
-    public void masAzucar(){
-        cantidad=cantidad+1;
-    }
-    public void menosAzucar(){
-        cantidad=cantidad-1;
-    }
-    
 }

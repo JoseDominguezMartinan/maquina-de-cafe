@@ -8,47 +8,14 @@ package maquinacafe;
 /**
  *
  * @author jdominguezmartinan
+ * @version 1.0
  */
-public class Monedero
-{
-    public float credito;
-    public float cambio;
+public class Monedero {
+/**
+ * o monedero vai ter un credito que e o que ten o cliente para poder mercar 
+ * o monedero vai ter un cambio que sera de cero ata que o cliente merque, o credito pasara a ser cero e o cambio a diferencia entre precio e credito, cando se expulse da maquina volvera a ser cero 
+ */
+    public static float credito = 0;
+    public static float cambio = 0;
 
-    public Monedero()
-    {
-    }
-
-    public Monedero(float credito,float cambio)
-    {
-        this.credito = credito;
-        this.cambio = cambio;
-    }
-
-    public float getCredito()
-    {
-        return credito;
-    }
-
-    public void setCredito(float credito)
-    {
-        this.credito = credito;
-    }
-
-    public float getCambio()
-    {
-        return cambio;
-    }
-
-    public void setCambio(float cambio)
-    {
-        this.cambio = cambio;
-    }
-
-    @Override
-    public String toString()
-    {
-        return "Monedero{"+"credito="+credito+", cambio="+cambio+'}';
-    }
-    
-    
 }

@@ -8,8 +8,9 @@ package maquinacafe;
 import java.util.Scanner;
 
 /**
- *
+ * metodo aplicacion para chamar ao boton que presionamos 
  * @author jdominguezmartinan
+ * @version 1.0
  */
 public class MaquinaCafe
 {
@@ -21,7 +22,7 @@ public class MaquinaCafe
     {
         // TODO code application logic here
         Botones boton=new Botones();
-        boton.seleccionarBebida();
+        boton.presionarBoton();
         
     }
     
