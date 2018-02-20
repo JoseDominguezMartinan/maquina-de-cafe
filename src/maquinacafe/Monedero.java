@@ -6,7 +6,7 @@
 package maquinacafe;
 
 /**
- *
+ * clase estatica para definir o monedero
  * @author jdominguezmartinan
  * @version 1.0
  */

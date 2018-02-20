@@ -8,6 +8,9 @@ package maquinacafe;
 import javax.swing.JOptionPane;
 import com.datos.LerDatos;
 import java.util.ArrayList;
+import maquinacafe.Display;
+import maquinacafe.Monedero;
+import maquinacafe.Productos;
 
 /**
  * clase co menu de botons da nosa cafetera
