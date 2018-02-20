@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="maquinacafe">
+  <ClassDiagramComponents>
+    <Class name="Azucar" package="maquinacafe" visibility="public" xPosition="428.0" yPosition="88.0">
+      <Fields>
+        <Field name="cantidad" type="int" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Display" package="maquinacafe" visibility="public" xPosition="444.0" yPosition="395.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="elaborar" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="mostrarPrecio" returnType="Productos" visibility="public" isStatic="true">
+          <Argument type="Productos" name="pro"/>
+        </Method>
+        <Method name="mostrarAzucar" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="mostrarCredito" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="mostrarCambio" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="devolverCredito" returnType="void" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="LerDatos" package="maquinacafe" visibility="public" xPosition="774.0" yPosition="59.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="listaProductos" returnType="ArrayList&lt;String&gt;" visibility="public" isStatic="true"/>
+        <Method name="seleccionarObxeto" returnType="String" visibility="public" isStatic="true">
+          <Argument type="String" name="nome"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MaquinaCafe" package="maquinacafe" visibility="public" xPosition="638.0" yPosition="226.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="String[]" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Monedero" package="maquinacafe" visibility="public" xPosition="605.0" yPosition="88.0">
+      <Fields>
+        <Field name="credito" type="float" visibility="public" isStatic="true"/>
+        <Field name="cambio" type="float" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Productos" package="maquinacafe" visibility="public" xPosition="763.0" yPosition="338.0">
+      <Fields>
+        <Field name="producto" type="String" visibility="public"/>
+        <Field name="precio" type="float" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="producto"/>
+          <Argument type="float" name="precio"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getProducto" returnType="String" visibility="public"/>
+        <Method name="setProducto" returnType="String" visibility="public">
+          <Argument type="String" name="producto"/>
+        </Method>
+        <Method name="getPrecio" returnType="float" visibility="public"/>
+        <Method name="setPrecio" returnType="float" visibility="public">
+          <Argument type="float" name="precio"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Botones" package="" visibility="public" xPosition="428.0" yPosition="226.0">
+      <Fields>
+        <Field name="i" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="presionarBoton" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="maquinacafe.LerDatos" target="maquinacafe.Productos" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

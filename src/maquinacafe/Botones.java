@@ -5,8 +5,8 @@
  */
 package maquinacafe;
 
-import javax.swing.JOptionPane;
 import com.datos.LerDatos;
+import javax.swing.JOptionPane;
 import java.util.ArrayList;
 
 /**
